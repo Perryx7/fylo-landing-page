@@ -1,0 +1,294 @@
+@import url('https://fonts.google.com/specimen/Raleway');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+.main{
+    cursor: pointer;
+    max-width: 1440px;
+}
+body{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    background: url(img/bg-curve-desktop.svg);
+    background-size: cover;
+}
+.header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway';
+}
+.logo{
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+.navbar{
+    padding: 30px;
+    position: relative;
+    top: 35px;
+    font-family: 'Raleway';
+    
+}
+.navbar a{
+    padding: 32px;
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+
+}
+.navbar a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.bloc1{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    
+}
+.text1{
+    padding: 5px;
+}
+.textinput1{
+    display: block;
+    width: 542px;
+    position: relative;
+    left: 50px;
+    height: 300px;
+    font-size: 20px;
+
+}
+.imagebloc{
+    position:relative;
+   bottom: 90px;
+    left: 120px;  
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+}
+.inputeamil1{
+   
+height: 30px;
+width: 260px;
+}
+.inputemail2{
+    height: 37px;
+    padding: 5px;
+    width: 150px;
+    background:  hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    transition: all 1s;
+}
+.inputemail2:hover{
+background: darkblue;
+transform: scale(1.1);
+cursor: pointer;
+
+}
+.bloc2{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 50px;
+}
+.textbloc2{
+    width: 520px;
+    height: 230px;
+    
+}
+.textbloc21{
+font-size: 18px;
+width: 540px;
+padding: 5px;
+}
+.textgreen{
+    display: flex;
+}
+.colorgreen a{
+    color: lightseagreen;
+}
+.imagebloc2{
+    position: relative;
+    left:125px ;
+    bottom: -20px;
+}
+.bloc3{
+    position: absolute;
+    top: 1150px;
+    left: 62px;
+}
+.quotes{
+    width: 280px;
+}
+.imagesbox img{
+    border-radius: 100px;
+    transition: all 0.7s;
+}
+.imagesbox img:hover{
+    transform: scale(1.3) rotate(20deg);
+    cursor: grab;
+}
+.boxcomment{
+    margin-top: 8px;
+    display: flex;
+}
+.textimages{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.textimages1{
+    font-weight: 800;
+}
+.textimages2{
+    opacity: 0.8;
+    font-size: 14px;
+}
+.footer{
+    position: absolute;
+    top: 1500px;
+}
+.foot1{
+    width: 1347.4px;
+    height: 260px;
+    background:  hsl(238, 22%, 44%);
+    color: beige;
+    
+}
+.textfoot1{
+    width: 420px;
+}
+.boxfoot1{
+display: flex;
+position: absolute;
+top: 70px;
+left: 62px;
+}
+.inputfoot1{
+    position: relative;
+    left: 300px;
+}
+.inputlong input{
+    width: 380px;
+    height: 35px;
+}
+.inputsmall input{
+    margin-top: 16px;
+    height: 35px;
+    padding: 0 15px;
+    background:  hsl(224, 93%, 58%);
+    color: white;
+    border:none ;
+    transition:all 1s
+}
+.textfoot1 p{
+    color: hsl(0, 0%, 75%);
+}
+.inputsmall input:hover{
+    background: darkblue;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.foot2{
+    background: hsl(243, 87%, 12%);
+    height: 370px;
+}
+.boxfoot2{
+    position: relative;
+    top: 72px;
+    left: 62px;
+    
+}
+.boxflex{
+    position: relative;
+    display: flex;
+flex-direction: left;
+justify-content: space-around;
+right: 100px;
+top: 30px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    margin: 0 30px;
+   
+}
+.imagebox1{
+display: flex;
+}
+.imagebox1 img{
+    transition: all 2s;
+}
+.imagebox1 img:hover{
+    transform: scale(1.2) rotate(20deg);
+}
+.textphone{
+    margin-left: 15px;
+    color: hsl(0, 0%, 75%);
+}
+.textphone:hover{
+    text-decoration: underline;
+}
+.box1 a{
+padding: 8px;
+color: hsl(0, 0%, 75%);
+text-decoration: none;
+}
+.box1 a:hover{
+    text-decoration: underline;
+}
+.medias{
+    display: flex;
+   
+}
+.medias p{
+    margin:0 5px;
+    border-radius: 100px;
+    border: 1px solid hsl(0, 0%, 75%);
+    background: white;
+    padding-left: 0 5px;
+    transition: all 1s;
+}
+.medias p:hover{
+    background: black;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.logo img{
+    transition: all 3s;
+}
+.logo img:hover{
+    transform: scale(1.2) ;
+}
+.logobloc1 img{
+    transition: all 3s;
+}
+.logobloc1 img:hover{
+    transform: scale(1.2) ;
+}
+.imagebloc img{
+    transition: all 1s;
+}
+.imagebloc img:hover{
+    transform: scale(1.1) ;
+}
+.imagebloc2 img{
+    transition: all 1s;
+}
+.imagebloc2 img:hover{
+    transform: scale(1.1) ;
+}
+.creator{
+    position:relative;
+    top: 100px;
+text-align: center;
+}
